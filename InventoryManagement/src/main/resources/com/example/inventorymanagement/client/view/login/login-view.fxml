@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPaneLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #EFD1D1, #FFFFFF);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanagement.client.common.controllers.LoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="218.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="235.0" fitWidth="203.0" layoutX="8.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../icons/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="415.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="loginButtonLogin" layoutX="254.0" layoutY="316.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Log-In" textFill="#ff7777" onAction="#OnLogin">
+               <font>
+                  <Font name="Share Tech Mono" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="88.0" layoutY="82.0" text="Welcome Back!">
+               <font>
+                  <Font name="Share Tech Mono" size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="passwordField" layoutX="28.0" layoutY="236.0" prefHeight="47.0" prefWidth="332.0" promptText="Password">
+               <font>
+                  <Font name="Share Tech Mono" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="usernameField" layoutX="28.0" layoutY="162.0" prefHeight="47.0" prefWidth="332.0" promptText="Username">
+               <font>
+                  <Font name="Share Tech Mono" size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

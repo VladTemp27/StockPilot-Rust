@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane fx:id="borderPaneProfileManagement" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: linear-gradient(to bottom, #EFD1D1, #FFFFFF);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanagement.client.admin.controllers.ProfileManagementAdminController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="changePasswordButton" layoutX="297.0" layoutY="316.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="286.0" style="-fx-background-color: #FFFFFF;" text="Change Password">
+                    <font>
+                        <Font name="Share Tech Mono" size="18.0" />
+                    </font>
+                </Button>
+                <ComboBox fx:id="changeUserAccountComboBox" layoutX="297.0" layoutY="261.0" prefHeight="36.0" prefWidth="286.0" promptText="Change User Account" style="-fx-background-color: #FFFFFF;" />
+                <Button fx:id="logoutButton" layoutX="297.0" layoutY="375.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="286.0" style="-fx-background-color: #FFFFFF;" text="Logout">
+                    <font>
+                        <Font name="Share Tech Mono" size="18.0" />
+                    </font>
+                </Button>
+                <Label fx:id="usernameLabel" layoutX="297.0" layoutY="174.0" text="Marven Luis">
+                    <font>
+                        <Font name="Share Tech Mono" size="24.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="78.0" fitWidth="79.0" layoutX="198.0" layoutY="165.0">
+                    <image>
+                        <Image url="@../../../../../../icons/personIcon.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="profileManagementLabel" alignment="CENTER" layoutX="198.0" layoutY="79.0" text="Profile Management" textAlignment="CENTER">
+                    <font>
+                        <Font name="Share Tech Mono" size="48.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

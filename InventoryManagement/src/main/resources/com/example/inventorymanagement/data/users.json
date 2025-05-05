@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "testadmin",
+      "password": "admintest",
+      "role": "admin"
+    },
+    {
+      "username": "testpurchase",
+      "password": "purchasetest",
+      "role": "purchase"
+    },
+    {
+      "username": "testsales",
+      "password": "salestest",
+      "role": "sales"
+    },
+    {
+      "username": "testUser",
+      "password": "password123",
+      "role": "admin"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "salesOrders": [
+    {
+      "orderID": "1",
+      "byUser": "testsales",
+      "date": "2024-02-29",
+      "orderDetails": [
+        {
+          "itemID": "1",
+          "qty": "50",
+          "unitPrice": "200.00",
+          "batchNo": "FeatherFarms_2023-12-29_200.00"
+        },
+        {
+          "itemID": "2",
+          "qty": "100",
+          "unitPrice": "500.00",
+          "batchNo": "OfficeEase_2023-12-29_500"
+        }
+      ]
+    },
+    {
+      "orderID": "2",
+      "byUser": "testsales",
+      "date": "2024-03-05",
+      "orderDetails": [
+        {
+          "itemID": "3",
+          "qty": "75",
+          "unitPrice": "8.64",
+          "batchNo": "SweetTreats_2024-02-12_7.20"
+        },
+        {
+          "itemID": "4",
+          "qty": "150",
+          "unitPrice": "300.00",
+          "batchNo": "SteelCraft_2024-02-12_250.00"
+        }
+      ]
+    },
+    {
+      "orderID": "3",
+      "byUser": "testsales",
+      "date": "2024-03-23",
+      "orderDetails": [
+        {
+          "itemID": "1",
+          "qty": "25",
+          "unitPrice": "240.00",
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": "4",
+      "byUser": "testsales",
+      "date": "2024-04-08",
+      "orderDetails": [
+        {
+          "itemID": "5",
+          "qty": "30",
+          "unitPrice": "7.02",
+          "batchNo": "ComMeats_2024-03-16_6.00"
+        }
+      ]
+    },
+    {
+      "orderID": "5",
+      "byUser": "testsales",
+      "date": "2024-04-12",
+      "orderDetails": [
+        {
+          "itemID": "5",
+          "qty": "30",
+          "unitPrice": "7.02",
+          "batchNo": "ComMeats_2024-03-16_6.00"
+        },
+        {
+          "itemID": "4",
+          "qty": "126",
+          "unitPrice": "300.00",
+          "batchNo": "SteelCraft_2024-02-12_250.00"
+        },
+        {
+          "itemID": "3",
+          "qty": "30",
+          "unitPrice": "8.64",
+          "batchNo": "SweetTreats_2024-02-12_7.20"
+        }
+      ]
+    },
+    {
+      "orderID": 6,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": 7,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 3,
+          "qty": 10,
+          "unitPrice": 7.7,
+          "batchNo": "SweetTreats_2024-02-11_7.00"
+        }
+      ]
+    },
+    {
+      "orderID": 8,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": 9,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": 10,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": 11,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 2,
+          "qty": 10,
+          "unitPrice": 525.0,
+          "batchNo": "OfficeEase_2023-12-29_500"
+        }
+      ]
+    },
+    {
+      "orderID": 12,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": 13,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": 14,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    },
+    {
+      "orderID": 15,
+      "byUser": "testsales",
+      "date": "2024-04-15",
+      "orderDetails": [
+        {
+          "itemID": 1,
+          "qty": 10,
+          "unitPrice": 299.75,
+          "batchNo": "FeatherFarms_2024-01-03_200.00"
+        }
+      ]
+    }
+  ]
+}

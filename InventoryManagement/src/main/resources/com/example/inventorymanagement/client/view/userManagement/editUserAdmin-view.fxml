@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanagement.client.admin.controllers.EditUserAdminController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: linear-gradient(to bottom, #EFD1D1, #FFFFFF);" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="usernameLabel" layoutX="282.0" layoutY="80.0" text="User Management">
+               <font>
+                  <Font name="Share Tech Mono" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="changePasswordButton" layoutX="78.0" layoutY="291.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="51.0" prefWidth="330.0" style="-fx-background-color: #FFFFFF;" text="Change Password" textAlignment="RIGHT">
+               <font>
+                  <Font name="Share Tech Mono" size="18.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="changeRoleComboBox" layoutX="453.0" layoutY="224.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="330.0" promptText="Change Role" style="-fx-background-color: EFD1D1;" />
+            <Button fx:id="deleteUserButton" layoutX="188.0" layoutY="470.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="51.0" prefWidth="430.0" style="-fx-background-color: FF0000;" text="Delete User" textAlignment="RIGHT">
+               <font>
+                  <Font name="Share Tech Mono" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="saveButton" alignment="CENTER" contentDisplay="CENTER" layoutX="708.0" layoutY="572.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="24.0" prefWidth="76.0" style="-fx-background-color: EFD1D1;" text="Save">
+               <font>
+                  <Font name="Share Tech Mono" size="14.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="selectUserAdminComboBox" layoutX="187.0" layoutY="149.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="432.0" promptText="Choose user..." style="-fx-background-color: EFD1D1;" />
+            <TextField fx:id="newPasswordField" layoutX="78.0" layoutY="225.0" prefHeight="51.0" prefWidth="330.0" promptText="New Password" />
+         </children>
+         <layoutX>50.0</layoutX>
+         <layoutY>50.0</layoutY>
+      </AnchorPane>
+   </center>
+</BorderPane>

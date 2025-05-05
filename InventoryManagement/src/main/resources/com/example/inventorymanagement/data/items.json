@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "itemName": "Whole Chicken",
+      "itemId": 1,
+      "totalQty": "40",
+      "stocks": [
+        {
+          "batchNo": "FeatherFarms_2023-12-29_200.00",
+          "qty": "0",
+          "price": 299.75,
+          "cost": 200.00,
+          "supplier": "FeatherFarms",
+          "date": "2023-12-29"
+        },
+        {
+          "batchNo": "FeatherFarms_2024-01-03_200.00",
+          "qty": "10",
+          "price": 299.75,
+          "cost": 200.00,
+          "supplier": "FeatherFarms",
+          "date": "2023-01-03"
+        },
+        {
+          "batchNo": "Steel Craft_2024-04-15_200.0",
+          "qty": 30,
+          "price": 48.0,
+          "cost": 200.0,
+          "supplier": "Steel Craft",
+          "date": "2024-04-15"
+        }
+      ]
+    },
+    {
+      "itemName": "A4 Printing Paper",
+      "itemId": 2,
+      "totalQty": "290",
+      "stocks": [
+        {
+          "batchNo": "OfficeEase_2023-12-29_500",
+          "qty": "190",
+          "price": 525.00,
+          "cost": 500.00,
+          "supplier": "OfficeEase",
+          "date": "2023-12-29"
+        },
+        {
+          "batchNo": "OfficeEase_2024-01-03_505.00",
+          "qty": "50",
+          "price": 527.50,
+          "cost": 505.00,
+          "supplier": "OfficeEase",
+          "date": "2024-01-03"
+        },
+        {
+          "batchNo": "OfficeEase_2024-01-04_506.00",
+          "qty": "50",
+          "price": 528.00,
+          "cost": 506.00,
+          "supplier": "OfficeEase",
+          "date": "2024-01-04"
+        }
+      ]
+    },
+    {
+      "itemName": "Chocolate Muffins",
+      "itemId": 3,
+      "totalQty": "140",
+      "stocks": [
+        {
+          "batchNo": "SweetTreats_2024-02-11_7.00",
+          "qty": "90",
+          "price": 7.70,
+          "cost": 7.00,
+          "supplier": "SweetTreats",
+          "date": "2024-02-11"
+        },
+        {
+          "batchNo": "SweetTreats_2024-02-12_7.20",
+          "qty": "50",
+          "price": 7.90,
+          "cost": 7.20,
+          "supplier": "SweetTreats",
+          "date": "2024-02-12"
+        }
+      ]
+    },
+    {
+      "itemName": "Steel Beams",
+      "itemId": "4",
+      "totalQty": "200",
+      "stocks": [
+        {
+          "batchNo": "SteelCraft_2024-02-12_250.00",
+          "qty": "200",
+          "price": 275.00,
+          "cost": 250.00,
+          "supplier": "SteelCraft",
+          "date": "2024-02-12"
+        }
+      ]
+    },
+    {
+      "itemName": "Hamon de Bola",
+      "itemId": "5",
+      "totalQty": "150",
+      "stocks": [
+        {
+          "batchNo": "ComMeats_2024-03-16_6.00",
+          "qty": "100",
+          "price": 6.65,
+          "cost": 6.00,
+          "supplier": "ComMeats",
+          "date": "2024-03-26"
+        },
+        {
+          "batchNo": "ComMeats_2024-03-23_60",
+          "qty": "50",
+          "price": 6.75,
+          "cost": 6.10,
+          "supplier": "ComMeats",
+          "date": "2024-03-23"
+        }
+      ]
+    },
+    {
+      "itemName": "Pork Chops",
+      "itemId": 6,
+      "totalQty": 0,
+      "stocks": []
+    }
+  ]
+}

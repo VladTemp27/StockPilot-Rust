@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #EFD1D1, #FFFFFF);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanagement.client.admin.controllers.AddUserAdminController">
+
+   <center>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="188.0" layoutY="82.0" text="User Management">
+               <font>
+                  <Font name="Share Tech Mono" size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameField" layoutX="134.0" layoutY="142.0" prefHeight="47.0" prefWidth="332.0" promptText="username">
+               <font>
+                  <Font name="Share Tech Mono" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="passwordField" layoutX="134.0" layoutY="200.0" prefHeight="47.0" prefWidth="332.0" promptText="password">
+               <font>
+                  <Font name="Share Tech Mono" size="18.0" />
+               </font>
+            </TextField>
+            <ComboBox fx:id="roleComboBox" layoutX="134.0" layoutY="263.0" prefHeight="38.0" prefWidth="334.0" promptText="set role as" style="-fx-background-color: EFD1D1;" visibleRowCount="2" />
+            <Button fx:id="saveButton" layoutX="466.0" layoutY="332.0" mnemonicParsing="false" style="-fx-background-color: EFD1D1;" text="Save" onAction="#handleSave">
+               <font>
+                  <Font name="Share Tech Mono" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

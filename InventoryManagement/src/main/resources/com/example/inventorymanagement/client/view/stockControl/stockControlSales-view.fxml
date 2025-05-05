@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPaneStockControlSales" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: linear-gradient(to bottom, #EFD1D1, #FFFFFF);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanagement.client.sales.controllers.StockControlSalesController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <TableView fx:id="stockControlSalesTable" layoutX="11.0" layoutY="10.0" prefHeight="585.0" prefWidth="829.0" style="-fx-font-family: 'Share Tech Mono'; -fx-font-size: 15;">
+                    <columns>
+                        <TableColumn fx:id="itemNameColumn" minWidth="0.0" prefWidth="420.0" text="Item Name" />
+                        <TableColumn fx:id="totalQtyColumn" minWidth="0.0" prefWidth="408.0" text="Total Quantity" />
+                    </columns>
+                </TableView>
+            </children></AnchorPane>
+    </center>
+    <bottom>
+        <AnchorPane prefHeight="62.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="createSalesInvoiceButtonSales" layoutX="709.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: EAD7D7;" text="Sales Invoice">
+                    <font>
+                        <Font name="Share Tech Mono" size="15.0" />
+                    </font>
+                </Button>
+            </children></AnchorPane>
+    </bottom>
+</BorderPane>
